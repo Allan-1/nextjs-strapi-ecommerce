@@ -1,0 +1,11 @@
+.itemflex{
+    display: flex;
+    justify-content: space-between;
+}
+.empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    font-size: 20px;
+}

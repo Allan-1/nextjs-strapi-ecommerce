@@ -1,0 +1,18 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: space-around;
+}
+.card{
+    margin-top: 0.7rem;
+}
+.card:hover{
+    transform: perspective(800px) translateZ(20px);
+}
+.image{
+    object-fit: contain;
+    height: 120px;
+}
+.title{
+    margin-top: 15px;
+}

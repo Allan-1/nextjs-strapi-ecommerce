@@ -1,0 +1,29 @@
+{
+  "name": "store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.5",
+    "axios": "^0.27.2",
+    "graphql": "^16.5.0",
+    "graphql-request": "^4.3.0",
+    "js-cookie": "^3.0.1",
+    "next": "12.1.6",
+    "next-auth": "^4.3.4",
+    "next-cookies": "^2.0.3",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.3.1",
+    "reactstrap": "^9.0.3"
+  },
+  "devDependencies": {
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6"
+  }
+}

@@ -1,0 +1,22 @@
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    flex-direction: column;
+}
+.reginput{
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+.button{
+    background-color: orange;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}

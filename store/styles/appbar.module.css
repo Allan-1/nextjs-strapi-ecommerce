@@ -1,0 +1,41 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.search{
+    background-color: white;
+    border: 1px solid orange;
+}
+.search input{
+    padding: 0.519rem 0.5rem;
+    width: 20rem;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.search button{
+    padding: 0.4rem 0.6rem;
+    border: none;
+    font-size: 20px;
+    background-color: orange;
+}
+.navbarright{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wishlist, .carticon, .usericon{
+    margin: 0 0.9rem;
+    font-size: 20px;
+}
+.length{
+    background-color: orange;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: -0px;
+}
